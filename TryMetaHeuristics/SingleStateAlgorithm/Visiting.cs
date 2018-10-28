@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 
-namespace TryMetaHeuristics.DataStructure
+namespace TryMetaHeuristics.SingleStateAlgorithm
 {
     public class Visiting
     {

@@ -1,7 +1,8 @@
 ﻿using System;
 using System.IO;
-using TryMetaHeuristics.Algorithms;
+using TryMetaHeuristics.BasicDiscretePopulationAlgorithm;
 using TryMetaHeuristics.DataStructure;
+using TryMetaHeuristics.SingleStateAlgorithm;
 
 namespace TryMetaHeuristics
 {
@@ -43,6 +44,8 @@ namespace TryMetaHeuristics
             SingleState.Run(graph);
 
             Console.WriteLine("==========");
+
+            BasicDiscretePopulation.Run(graph);
 
             Console.Read();
         }

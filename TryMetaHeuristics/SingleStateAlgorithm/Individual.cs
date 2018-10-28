@@ -1,17 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
-namespace TryMetaHeuristics.DataStructure
+namespace TryMetaHeuristics.SingleStateAlgorithm
 {
     public class Individual
     {
         public Visiting[] Visitings;
 
-        private Individual()
-        {
-        }
+        public Individual() { }
 
         public Individual(int size)
         {
